@@ -1,0 +1,172 @@
+{
+  "id": 0,
+  "name": "vidoc",
+  "variant": "project",
+  "kind": 1,
+  "flags": {},
+  "children": [
+    {
+      "id": 1,
+      "name": "add",
+      "variant": "declaration",
+      "kind": 64,
+      "flags": {},
+      "sources": [
+        {
+          "fileName": "index.ts",
+          "line": 12,
+          "character": 16
+        }
+      ],
+      "signatures": [
+        {
+          "id": 2,
+          "name": "add",
+          "variant": "signature",
+          "kind": 4096,
+          "flags": {},
+          "comment": {
+            "summary": [
+              {
+                "kind": "text",
+                "text": "jsdoc示例"
+              }
+            ],
+            "blockTags": [
+              {
+                "tag": "@returns",
+                "content": [
+                  {
+                    "kind": "text",
+                    "text": "返回两个数字的和"
+                  }
+                ]
+              },
+              {
+                "tag": "@example",
+                "content": [
+                  {
+                    "kind": "code",
+                    "text": "```js\nconst result = add(1, 2)\nconsole.log(result) // 输出 3\n```"
+                  }
+                ]
+              }
+            ]
+          },
+          "sources": [
+            {
+              "fileName": "index.ts",
+              "line": 12,
+              "character": 16
+            }
+          ],
+          "parameters": [
+            {
+              "id": 3,
+              "name": "a",
+              "variant": "param",
+              "kind": 32768,
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "第一个数字"
+                  }
+                ]
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            },
+            {
+              "id": 4,
+              "name": "b",
+              "variant": "param",
+              "kind": 32768,
+              "flags": {},
+              "comment": {
+                "summary": [
+                  {
+                    "kind": "text",
+                    "text": "第二个数字"
+                  }
+                ]
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            }
+          ],
+          "type": {
+            "type": "intrinsic",
+            "name": "number"
+          }
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "title": "Functions",
+      "children": [
+        1
+      ]
+    }
+  ],
+  "packageName": "vidoc",
+  "readme": [
+    {
+      "kind": "text",
+      "text": "# pkg-placeholder\n\n[![npm version][npm-version-src]][npm-version-href]\n[![npm downloads][npm-downloads-src]][npm-downloads-href]\n[![bundle][bundle-src]][bundle-href]\n[![JSDocs][jsdocs-src]][jsdocs-href]\n[![License][license-src]][license-href]\n\n_description_\n\n> **Note**:\n> Replace "
+    },
+    {
+      "kind": "code",
+      "text": "`pkg-placeholder`"
+    },
+    {
+      "kind": "text",
+      "text": ", "
+    },
+    {
+      "kind": "code",
+      "text": "`_description_`"
+    },
+    {
+      "kind": "text",
+      "text": " and "
+    },
+    {
+      "kind": "code",
+      "text": "`antfu`"
+    },
+    {
+      "kind": "text",
+      "text": " globally to use this template.\n\n## Sponsors\n\n<p align=\"center\">\n  <a href=\"https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg\">\n    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg'/>\n  </a>\n</p>\n\n## License\n\n[MIT](./LICENSE) License © 2023-PRESENT [Anthony Fu](https://github.com/antfu)\n\n<!-- Badges -->\n\n[npm-version-src]: https://img.shields.io/npm/v/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669\n[npm-version-href]: https://npmjs.com/package/pkg-placeholder\n[npm-downloads-src]: https://img.shields.io/npm/dm/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669\n[npm-downloads-href]: https://npmjs.com/package/pkg-placeholder\n[bundle-src]: https://img.shields.io/bundlephobia/minzip/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669&label=minzip\n[bundle-href]: https://bundlephobia.com/result?p=pkg-placeholder\n[license-src]: https://img.shields.io/github/license/antfu/pkg-placeholder.svg?style=flat&colorA=080f12&colorB=1fa669\n[license-href]: https://github.com/antfu/pkg-placeholder/blob/main/LICENSE\n[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669\n[jsdocs-href]: https://www.jsdocs.io/package/pkg-placeholder"
+    }
+  ],
+  "symbolIdMap": {
+    "0": {
+      "sourceFileName": "src/index.ts",
+      "qualifiedName": ""
+    },
+    "1": {
+      "sourceFileName": "src/index.ts",
+      "qualifiedName": "add"
+    },
+    "2": {
+      "sourceFileName": "src/index.ts",
+      "qualifiedName": "add"
+    },
+    "3": {
+      "sourceFileName": "src/index.ts",
+      "qualifiedName": "a"
+    },
+    "4": {
+      "sourceFileName": "src/index.ts",
+      "qualifiedName": "b"
+    }
+  }
+}
